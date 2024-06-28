@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: channelsalesexperience-validate
+
+services:
+  channelsalesexperience-validate:
+    port: 8080
+    contextPath: /channelsalesexperience-validate
+    version: 1.0.0
+    description: Channel Sales Experience Validate Service
+    swagger:
+      enabled: true
+      title: Channel Sales Experience Validate Service
+      description: Channel Sales Experience Validate Service
+      version: 1.0.0
+      contact:
+        name: Channel Sales Experience Validate Service
+        email:
